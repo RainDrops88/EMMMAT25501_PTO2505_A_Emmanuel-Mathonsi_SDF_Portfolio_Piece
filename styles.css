@@ -1,19 +1,38 @@
 body {
-    background-color: rgb(51, 92, 44);
+    background-image: url(images/bg\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1515.03px;
+    height: 4036.84px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     color: #696868;
-    margin: 3em;
-    font-size: 1em;
+    
+}
+
+.container {
+    width: 1321.79px;
+    margin-left: 59px;
+    margin-top: 63px;
 }
 
 h2 {
-    color: black;
-    margin-top: 0;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 33.88px;
+    margin: 0;
 }
 
+/* PROFILE SECTION  START*/
 .profile {
+    width: 1321.79px;
+    height: 300.1px;
     display: grid;
-    grid-template-columns: 20% 80% ;
-    border: 2px solid blueviolet;
+    grid-template-columns: 300.1px 994.69px ;
+    gap: 27px;
+    border-radius: 29.04px;
 }
 @media screen and (max-width: 431px){
     body {
@@ -21,52 +40,54 @@ h2 {
         font-size: .8em;
     }
     .profile {
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 300.1px 994.69px;
     }
     
 }
 
 .profile-p {
-    radius: 5em;
-    border: 2px solid rgb(60, 49, 69);
+    width: 300.1px;
+    height: 300.1px;
+    border-radius: 29.04px;
 }
 
 .bio {
-    background-color: rgb(239, 237, 237);
-    margin-left: 2em;
-    border-radius: 2em;
-    padding: 2.5em;
-    border: 2px solid rgb(19, 223, 60);
+    background-color: #FFFFFF;
+    max-width: 994.69px;
+    border-radius: 29.04px;
+    padding: 59px 69px;
 }
 
-img {
-    width: 100%;
-    border-radius: 1em;
+.name {
+    font-weight: 600;
+    font-size: 36px;
 }
+
+
+/* PROFILE SECTION  ENDS*/
 
 .prof-skill {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    height: 20em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border: 2px solid blueviolet;
+    width: 1321.79px;
+    height: 428.37px;
+    display: flex;
+    gap: 52.79px;
+    margin-top: 48.33px;
 }
 
 
 .proficiancy {
-    background-color: rgb(239, 237, 237);
-    border-radius: 2em;
-    padding: 2.5em 1.5em;
-    border: 2px solid rgb(19, 223, 60);
+    background-color: #FFFFFF;
+    width: 563.9px;
+    border-radius: 29.04px;
+    padding: 41px 28px;
+    margin-right: 30px;
 }
 
 .skills {
-    background-color: rgb(239, 237, 237);
-    border-radius: 2em;
-    padding: 2.5em 1.5em;
-    margin-left: 2em;
-    border: 2px solid rgb(19, 223, 60);
+    background-color: #FFFFFF;
+    width: 706px;
+    border-radius: 29.04px;
+    padding: 28px;
 }
 
 @media screen and (max-width: 431px){
@@ -78,4 +99,39 @@ img {
         margin-left: 0;
         margin-top: 1em;
     }
+}
+
+.project-section {
+    max-width: 1318.08px;
+    height: 755.09px;
+    background-color: #FFFFFF;
+    margin-top: 48.33px;
+    border-radius: 29.04px;
+    text-align: center;
+    padding: 43px 29px;
+}
+
+.project-name {
+    margin-bottom: 
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 280px 272px);
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+.project-1 {
+    background-color: #4A8B70;
+    width: ;
+    height: 581px;
+    border-radius: 29.04px;
+    padding: 22px 19px;
+}
+.project-2, .project-3, .project-4 {
+    background-color: #E7F0EC;
+    height: 581px;
+    border-radius: 29.04px;
+    padding: 22px 19px;
 }
