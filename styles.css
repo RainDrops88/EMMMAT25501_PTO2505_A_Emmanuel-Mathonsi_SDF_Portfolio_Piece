@@ -124,7 +124,6 @@ h2 {
 }
 .project-1 {
     background-color: #4A8B70;
-    width: ;
     height: 581px;
     border-radius: 29.04px;
     padding: 22px 19px;
@@ -134,4 +133,90 @@ h2 {
     height: 581px;
     border-radius: 29.04px;
     padding: 22px 19px;
+}
+
+.edu-tool {   
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    margin-top: 60px;
+
+}
+
+.education {
+    width: 994.69px;
+    height: 847.06px;
+    border-radius: 29.04px;
+    background-color: #FFFFFF;
+    padding: 29.04px;
+}
+
+.codespace {
+    background-color: #4A8B70;
+    width: 936.61px;
+    height: 242.02px;
+    pading: 27px 21px;
+    margin-top: 29px;
+    border-radius: 29.04px;
+}
+
+.gwf {
+    background-color: #E7F0EC;
+    width: 936.61px;
+    height: 242.02px;
+    pading: 27px 21px;
+    margin-top: 29px;
+    border-radius: 29.04px;
+}
+
+.high_school {
+    background-color: #E7F0EC;
+    width: 936.61px;
+    height: 242.02px;
+    pading: 27px 21px;
+    margin-top: 29px;
+    border-radius: 29.04px;
+}
+
+.education-bg {
+    width: 936.6px;
+
+}
+
+.techs{
+    width: 300.1px;
+    height: 847.06px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 29.04px;
+    background-color: #FFFFFF;
+    padding: 29.04px;
+    text-align: center;
+}
+
+.lagueges {
+    background-color: #E7F0EC;
+    width: 183.9px;
+    height: 273.9px;
+    border-radius: 14.52px;
+    margin: 29.04px auto;
+    padding: 38.72px 9.68px;
+}
+
+.design {
+    background-color: #E7F0EC;
+    width: 183.9px;
+    height: 152px;
+    border-radius: 14.52px;
+    padding: 38.72px 9.68px;
+    margin: 0 auto 29.04px auto;
+}
+
+.tools {
+    background-color: #E7F0EC;
+    width: 183.9px;
+    height: 198.45px;
+    border-radius: 14.52px;
+    padding: 38.72px 9.68px;
+    margin: 0 auto;
 }
