@@ -135,6 +135,7 @@ h2 {
     padding: 22px 19px;
 }
 
+/* EDUCATION AND TOOLS SECTION START */
 .edu-tool {   
     display: flex;
     justify-content: space-between;
@@ -144,6 +145,8 @@ h2 {
 }
 
 .education {
+    display: flex;
+    flex-direction: column;
     width: 994.69px;
     height: 847.06px;
     border-radius: 29.04px;
@@ -184,10 +187,10 @@ h2 {
 }
 
 .techs{
-    width: 300.1px;
-    height: 847.06px;
     display: flex;
     flex-direction: column;
+    width: 300.1px;
+    height: 847.06px;
     border-radius: 29.04px;
     background-color: #FFFFFF;
     padding: 29.04px;
@@ -219,4 +222,53 @@ h2 {
     border-radius: 14.52px;
     padding: 38.72px 9.68px;
     margin: 0 auto;
+}
+/* EDUCATION AND TOOLS SECTION ENDS */
+
+.experiance {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 1316PX;
+    height: 640PX;
+    border-radius: 14.52px;
+    margin-top: 60px;
+    padding: 31px 27px 32px 27px;
+    
+}
+
+.work-1, .work-2, .work-3 {
+    background-color: #E7F0EC;
+    width: 1260px;
+    height: 145px;
+    border-radius: 14.52px;
+    padding: 19px 25px;
+
+}
+
+.work-1 {
+    background-color: #4A8B70;
+}
+
+.footer_container {
+    background-color: #D76239;
+    width: 1322px;
+    height: 158px;
+    border-radius: 29.04px;
+    padding: 29.04px;
+    margin-top: 60px;
+}
+
+.footer_container h2 {
+    color: #FFFFFF;
+}
+
+.contacts {
+    color: #DDDDDD;
+    font-size: 24.2px;
+}
+a {
+    text-decoration: none;
+    color: #DDDDDD;
 }
