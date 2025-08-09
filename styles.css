@@ -1,38 +1,41 @@
+html {
+font-size: 1px;
+}
+
 body {
     background-image: url(images/bg\ image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1515.03px;
-    height: 4036.84px;
+    wdth: 1515em;
+    height: 4036.84em;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    color: #696868;
     
 }
 
 .container {
-    width: 1321.79px;
-    margin-left: 59px;
-    margin-top: 63px;
+    width: 1321.79em;
+    margin-left: 59em;
+    margin-top: 63em;
 }
 
 h2 {
     color: #000000;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 33.88px;
+    font-size:33.88em;
     margin: 0;
 }
 
 /* PROFILE SECTION  START*/
 .profile {
-    width: 1321.79px;
-    height: 300.1px;
+    width: 1321.2em;
+    height: 300em;
     display: grid;
-    grid-template-columns: 300.1px 994.69px ;
-    gap: 27px;
-    border-radius: 29.04px;
+    grid-template-columns: 300.1em 994.69em ;
+    gap: 27em;
+    border-radius: 29em;
 }
 @media screen and (max-width: 431px){
     body {
@@ -46,48 +49,57 @@ h2 {
 }
 
 .profile-p {
-    width: 300.1px;
-    height: 300.1px;
-    border-radius: 29.04px;
+    width: 300em;
+    height: 300em;
+    border-radius: 29em;
 }
 
 .bio {
     background-color: #FFFFFF;
-    max-width: 994.69px;
-    border-radius: 29.04px;
-    padding: 59px 69px;
+    max-width: 994.5em;
+    border-radius: 1.34em;
+    padding: 2.7em 3.18em;
+    font-size: 22em;
+    color: #696868;
 }
 
-.name {
+h1 {
+    color: #000000;
+    font-size: 1.64em;
     font-weight: 600;
-    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: .32em;
+}
+
+.about_me {
+    margin: 0;
 }
 
 
 /* PROFILE SECTION  ENDS*/
 
 .prof-skill {
-    width: 1321.79px;
-    height: 428.37px;
+    width: 1321.79em;
+    height: 428.37em;
     display: flex;
-    gap: 52.79px;
-    margin-top: 48.33px;
+    gap: 48.1em;
+    margin-top: 48em;
 }
 
 
 .proficiancy {
     background-color: #FFFFFF;
-    width: 563.9px;
-    border-radius: 29.04px;
-    padding: 41px 28px;
-    margin-right: 30px;
+    width: 563.9em;
+    border-radius: 29em;
+    padding: 51.14em 27.4em;
+    margin-right: 48.18em;
 }
 
 .skills {
     background-color: #FFFFFF;
-    width: 706px;
-    border-radius: 29.04px;
-    padding: 28px;
+    width: 706em;
+    border-radius: 29em;
+    padding: 28em 28em 31.47em 28px;
 }
 
 @media screen and (max-width: 431px){
@@ -106,7 +118,7 @@ h2 {
     height: 755.09px;
     background-color: #FFFFFF;
     margin-top: 48.33px;
-    border-radius: 29.04px;
+    border-radius: 2.9em;
     text-align: center;
     padding: 43px 29px;
 }
@@ -125,13 +137,13 @@ h2 {
 .project-1 {
     background-color: #4A8B70;
     height: 581px;
-    border-radius: 29.04px;
+    border-radius: 2.9em;
     padding: 22px 19px;
 }
 .project-2, .project-3, .project-4 {
     background-color: #E7F0EC;
     height: 581px;
-    border-radius: 29.04px;
+    border-radius: 2.9em;
     padding: 22px 19px;
 }
 
@@ -147,20 +159,20 @@ h2 {
 .education {
     display: flex;
     flex-direction: column;
-    width: 994.69px;
-    height: 847.06px;
-    border-radius: 29.04px;
+    max-width: 994.69px;
+    max-height: 847.06px;
+    border-radius: 2.9em;
     background-color: #FFFFFF;
-    padding: 29.04px;
+    padding: 2.9em;
 }
 
 .codespace {
     background-color: #4A8B70;
-    width: 936.61px;
+    max-width: 936.61px;
     height: 242.02px;
-    pading: 27px 21px;
-    margin-top: 29px;
-    border-radius: 29.04px;
+    padding: 27px 21px;
+    margin-top: 2em;
+    border-radius: 2.9em;
 }
 
 .gwf {
@@ -168,8 +180,8 @@ h2 {
     width: 936.61px;
     height: 242.02px;
     pading: 27px 21px;
-    margin-top: 29px;
-    border-radius: 29.04px;
+    margin-top: 2em;
+    border-radius: 2.9em;
 }
 
 .high_school {
@@ -177,8 +189,8 @@ h2 {
     width: 936.61px;
     height: 242.02px;
     pading: 27px 21px;
-    margin-top: 29px;
-    border-radius: 29.04px;
+    margin-top: 2em;
+    border-radius: 2.9em;
 }
 
 .education-bg {
@@ -191,7 +203,7 @@ h2 {
     flex-direction: column;
     width: 300.1px;
     height: 847.06px;
-    border-radius: 29.04px;
+    border-radius: 2.9em;
     background-color: #FFFFFF;
     padding: 29.04px;
     text-align: center;
@@ -199,13 +211,11 @@ h2 {
 
 .lagueges {
     background-color: #E7F0EC;
-    width: 183.9px;
-    height: 273.9px;
-    border-radius: 14.52px;
+    width: 18.39em;
+    height: 27.39em;
+    border-radius: 1.452em;
     margin: 29.04px auto;
-    padding: 38.72px 9.68px;
 }
-
 .design {
     background-color: #E7F0EC;
     width: 183.9px;
@@ -230,7 +240,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    width: 1316PX;
+    max-width: 1316PX;
     height: 640PX;
     border-radius: 14.52px;
     margin-top: 60px;
@@ -240,7 +250,7 @@ h2 {
 
 .work-1, .work-2, .work-3 {
     background-color: #E7F0EC;
-    width: 1260px;
+    max-width: 1260px;
     height: 145px;
     border-radius: 14.52px;
     padding: 19px 25px;
@@ -253,7 +263,7 @@ h2 {
 
 .footer_container {
     background-color: #D76239;
-    width: 1322px;
+    max-width: 1322px;
     height: 158px;
     border-radius: 29.04px;
     padding: 29.04px;
