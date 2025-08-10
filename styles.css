@@ -266,51 +266,54 @@ h3 {
 .edu-tool {   
     display: flex;
     justify-content: space-between;
-    gap: 21em;
-    margin-top: 48.2em;
+    gap: 21rem;
+    margin-top: 48.2rem;
 
 }
 
 .education {
     display: flex;
     flex-direction: column;
-    width: 994.69em;
-    max-height: 847.06em;
-    border-radius: 29em;
+    width: 994.69rem;
+    max-height: 818.06rem;
+    border-radius: 29rem;
     background-color: #FFFFFF;
-    padding: 29em;
+    padding: 29rem ;
 }
 
-.codespace {
+.education-bg-1 {
     background-color: #4A8B70;
-    width: 936.61em;
-    height: 242.02em;
-    pading: 27em 21em;
-    margin-top: 2em;
-    border-radius: 29em;
+    height: 186.02rem;
 }
 
-.gwf {
+.education-bg-2, .education-bg-3{
     background-color: #E7F0EC;
-    width: 936.61em;
-    height: 242.02em;
-    pading: 27em 21em;
-    margin-top: 2em;
-    border-radius: 29em;
+    height: 164.61rem;
 }
 
-.high_school {
-    background-color: #E7F0EC;
-    width: 936.61em;
-    height: 242.02em;
-    pading: 27em 21em;
-    margin-top: 2em;
-    border-radius: 29em;
+ul {
+    margin: 0;
 }
 
-.education-bg {
-    width: 936.6em;
+.education-bg-1, .education-bg-2, .education-bg-3 {
+    display: grid;
+    grid-template-columns: 267rem 578.4rem;
+    column-gap: 30rem;
+    width: 936.61rem;
+    font-size: 19.36em;
+    line-height: 29rem;
+    padding: 27rem 21rem 27rem 21rem;
+    margin-top: 20rem;
+    border-radius: 29rem;
 
+}
+
+.institutions-name {
+    padding: 2 0;
+}
+
+.dates {
+    font-weight: 500;
 }
 
 .techs{
@@ -320,7 +323,6 @@ h3 {
     height: 847.06em;
     border-radius: 29em;
     background-color: #FFFFFF;
-    adding: 29.04em;
     text-align: center;
 }
 
@@ -360,7 +362,6 @@ h3 {
     width: 183.9em;
     height: 152em;
     border-radius: 14.52em;
-    paddng: 387.2em 96.8em;
     margin: 0 auto 29.04em auto;
 }
 
@@ -388,7 +389,6 @@ h3 {
     width: 183.9em;
     height: 198.45em;
     border-radius: 14.52em;
-    pdding: 38.72px 9.68em;
     margin: 0 auto;
 }
 
