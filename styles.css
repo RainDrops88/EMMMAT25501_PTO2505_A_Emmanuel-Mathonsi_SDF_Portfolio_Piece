@@ -75,10 +75,9 @@ h1 {
 .about_me {
     margin: 0;
 }
-
-
 /* PROFILE SECTION  ENDS*/
 
+/* PROFICIANCY AND SKILLS SECTION  STARTS*/
 .prof-skill {
     width: 1321.79em;
     height: 428.37em;
@@ -183,6 +182,7 @@ div .skill {
     line-height: 36rem;
     border-radius: 96.81rem;
 }
+/* PROFICIANCY AND SKILLS SECTION  ENDS*/
 
 
 @media screen and (max-width: 431px){
@@ -196,14 +196,15 @@ div .skill {
     }
 }
 
-.project-section {
-    max-width: 1318.08em;
-    height: 755.09em;
+/* PROJECT SECTION  STARTS*/
+.projects-section {
+    max-width: 1318.08rem;
+    height: 755.09rem;
     background-color: #FFFFFF;
-    margin-top: 48.33em;
-    border-radius: 29em;
+    margin-top: 48.33rem;
+    border-radius: 29rem;
     text-align: center;
-    padding: 43em 29em;
+    padding: 43rem 29rem 0 29rem;
 }
 
 .project-name {
@@ -212,23 +213,54 @@ div .skill {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 280em 272em);
+    grid-template-columns: 280rem 280rem 272rem 272rem;
     justify-content: space-between;
-    margin-top: 60em;
+    margin-top: 60rem;
+    margin-bottom: 0;
     
 }
+
 .project-1 {
     background-color: #4A8B70;
-    height: 581em;
-    border-radius: 29em;
-    padding: 22em 19em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 19.36em;
+    height: 581rem;
+    border-radius: 29rem;
+    padding: 21rem 19rem;
 }
 .project-2, .project-3, .project-4 {
     background-color: #E7F0EC;
-    height: 581em;
-    border-radius: 29em;
-    padding: 22em 19em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 19.36em;
+    height: 581rem;
+    border-radius: 29rem;
+    padding: 21rem 19rem;
 }
+
+i {
+    color: rgba(215, 98, 57, 1);
+    height: 22rem;
+    margin-left: 160rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+.year, .brief, .responsibilities, p, h3 {
+    margin: 0;
+}
+
+.project-type, .technologies {
+    margin: 24rem 0;
+}
+/* PROJECT SECTION  ENDS*/
 
 /* EDUCATION AND TOOLS SECTION START */
 .edu-tool {   
