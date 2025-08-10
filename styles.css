@@ -7,10 +7,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    wdth: 1515em;
+    width: 1515em;
     height: 4036.84em;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    margin-left: -32rem;
     
 }
 
@@ -233,15 +234,15 @@ div .skill {
 .edu-tool {   
     display: flex;
     justify-content: space-between;
-    gap: 27em;
-    margin-top: 60em;
+    gap: 21em;
+    margin-top: 48.2em;
 
 }
 
 .education {
     display: flex;
     flex-direction: column;
-    max-width: 994.69em;
+    width: 994.69em;
     max-height: 847.06em;
     border-radius: 29em;
     background-color: #FFFFFF;
@@ -250,9 +251,9 @@ div .skill {
 
 .codespace {
     background-color: #4A8B70;
-    max-width: 936.61em;
+    width: 936.61em;
     height: 242.02em;
-    padding: 27em 21em;
+    pading: 27em 21em;
     margin-top: 2em;
     border-radius: 29em;
 }
@@ -287,8 +288,12 @@ div .skill {
     height: 847.06em;
     border-radius: 29em;
     background-color: #FFFFFF;
-    padding: 29.04em;
+    adding: 29.04em;
     text-align: center;
+}
+
+.techs h2 {
+    margin-top: 32rem;
 }
 
 .lagueges {
@@ -296,15 +301,54 @@ div .skill {
     width: 183.9em;
     height: 273.9em;
     border-radius: 14.52em;
-    margin: 29.04em auto;
+    margin: 36.04em auto 29.04rem auto;
+    text-align: center;
 }
+
+.lagueges p {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -12rem 43rem 24.14rem 46rem;
+}
+
+.laguege {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 38.72rem;
+    row-gap: 38.72rem;
+}
+
 .design {
     background-color: #E7F0EC;
     width: 183.9em;
     height: 152em;
     border-radius: 14.52em;
-    padding: 387.2em 96.8em;
+    paddng: 387.2em 96.8em;
     margin: 0 auto 29.04em auto;
+}
+
+.design p {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    width: 57rem;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -12rem 57.29rem 16.42rem 55.66rem;
+}
+
+.designs {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 36.86rem;
+    row-gap: 21rem;
 }
 
 .tools {
@@ -312,9 +356,29 @@ div .skill {
     width: 183.9em;
     height: 198.45em;
     border-radius: 14.52em;
-    padding: 38.72px 9.68em;
+    pdding: 38.72px 9.68em;
     margin: 0 auto;
 }
+
+.tools p {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    width: 57rem;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -4.79rem 61.9rem 16.82rem 62.9rem;
+}
+
+.tool {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 38.72rem;
+    row-gap: 38.72rem;
+}
+
 /* EDUCATION AND TOOLS SECTION ENDS */
 
 .experiance {
