@@ -92,15 +92,97 @@ h1 {
     width: 563.9em;
     border-radius: 29em;
     padding: 51.14em 27.4em;
-    margin-right: 48.18em;
 }
 
 .skills {
     background-color: #FFFFFF;
     width: 706em;
     border-radius: 29em;
-    padding: 28em 28em 31.47em 28px;
+    padding: 28em 28em 31.47em 28em;
 }
+
+div .skill {
+    display: flex;
+    flex-wrap:wrap ;
+    width: 672.81rem;
+    max-height: 279.53rem;
+    margin-top: 39rem;
+}
+
+.skill-1{
+    background-color: rgba(74, 139, 112, 0.13) ;
+    padding: 9.68rem 24.2rem;
+    margin: 0 0 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+    
+}
+
+.skill-2{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    font-size: 24.2em;
+    line-height: 36rem;
+    margin: 0 19.39rem 19.39rem 19.39rem;;
+    border-radius: 96.81rem;
+}
+
+.skill-3{
+    background-color:rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-4{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-5{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-6{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-7{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-8{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
 
 @media screen and (max-width: 431px){
     .prof-skill{
@@ -114,13 +196,13 @@ h1 {
 }
 
 .project-section {
-    max-width: 1318.08px;
-    height: 755.09px;
+    max-width: 1318.08em;
+    height: 755.09em;
     background-color: #FFFFFF;
-    margin-top: 48.33px;
-    border-radius: 2.9em;
+    margin-top: 48.33em;
+    border-radius: 29em;
     text-align: center;
-    padding: 43px 29px;
+    padding: 43em 29em;
 }
 
 .project-name {
@@ -129,108 +211,108 @@ h1 {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 280px 272px);
+    grid-template-columns: repeat(2, 280em 272em);
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 60em;
     
 }
 .project-1 {
     background-color: #4A8B70;
-    height: 581px;
-    border-radius: 2.9em;
-    padding: 22px 19px;
+    height: 581em;
+    border-radius: 29em;
+    padding: 22em 19em;
 }
 .project-2, .project-3, .project-4 {
     background-color: #E7F0EC;
-    height: 581px;
-    border-radius: 2.9em;
-    padding: 22px 19px;
+    height: 581em;
+    border-radius: 29em;
+    padding: 22em 19em;
 }
 
 /* EDUCATION AND TOOLS SECTION START */
 .edu-tool {   
     display: flex;
     justify-content: space-between;
-    gap: 27px;
-    margin-top: 60px;
+    gap: 27em;
+    margin-top: 60em;
 
 }
 
 .education {
     display: flex;
     flex-direction: column;
-    max-width: 994.69px;
-    max-height: 847.06px;
-    border-radius: 2.9em;
+    max-width: 994.69em;
+    max-height: 847.06em;
+    border-radius: 29em;
     background-color: #FFFFFF;
-    padding: 2.9em;
+    padding: 29em;
 }
 
 .codespace {
     background-color: #4A8B70;
-    max-width: 936.61px;
-    height: 242.02px;
-    padding: 27px 21px;
+    max-width: 936.61em;
+    height: 242.02em;
+    padding: 27em 21em;
     margin-top: 2em;
-    border-radius: 2.9em;
+    border-radius: 29em;
 }
 
 .gwf {
     background-color: #E7F0EC;
-    width: 936.61px;
-    height: 242.02px;
-    pading: 27px 21px;
+    width: 936.61em;
+    height: 242.02em;
+    pading: 27em 21em;
     margin-top: 2em;
-    border-radius: 2.9em;
+    border-radius: 29em;
 }
 
 .high_school {
     background-color: #E7F0EC;
-    width: 936.61px;
-    height: 242.02px;
-    pading: 27px 21px;
+    width: 936.61em;
+    height: 242.02em;
+    pading: 27em 21em;
     margin-top: 2em;
-    border-radius: 2.9em;
+    border-radius: 29em;
 }
 
 .education-bg {
-    width: 936.6px;
+    width: 936.6em;
 
 }
 
 .techs{
     display: flex;
     flex-direction: column;
-    width: 300.1px;
-    height: 847.06px;
-    border-radius: 2.9em;
+    width: 300.1em;
+    height: 847.06em;
+    border-radius: 29em;
     background-color: #FFFFFF;
-    padding: 29.04px;
+    padding: 29.04em;
     text-align: center;
 }
 
 .lagueges {
     background-color: #E7F0EC;
-    width: 18.39em;
-    height: 27.39em;
-    border-radius: 1.452em;
-    margin: 29.04px auto;
+    width: 183.9em;
+    height: 273.9em;
+    border-radius: 14.52em;
+    margin: 29.04em auto;
 }
 .design {
     background-color: #E7F0EC;
-    width: 183.9px;
-    height: 152px;
-    border-radius: 14.52px;
-    padding: 38.72px 9.68px;
-    margin: 0 auto 29.04px auto;
+    width: 183.9em;
+    height: 152em;
+    border-radius: 14.52em;
+    padding: 387.2em 96.8em;
+    margin: 0 auto 29.04em auto;
 }
 
 .tools {
     background-color: #E7F0EC;
-    width: 183.9px;
-    height: 198.45px;
-    border-radius: 14.52px;
-    padding: 38.72px 9.68px;
+    width: 183.9em;
+    height: 198.45em;
+    border-radius: 14.52em;
+    padding: 38.72px 9.68em;
     margin: 0 auto;
 }
 /* EDUCATION AND TOOLS SECTION ENDS */
@@ -240,20 +322,20 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    max-width: 1316PX;
-    height: 640PX;
-    border-radius: 14.52px;
-    margin-top: 60px;
-    padding: 31px 27px 32px 27px;
+    max-width: 1316em;
+    height: 640em;
+    border-radius: 14.52em;
+    margin-top: 60em;
+    padding: 31em 27em 32em 27em;
     
 }
 
 .work-1, .work-2, .work-3 {
     background-color: #E7F0EC;
-    max-width: 1260px;
-    height: 145px;
-    border-radius: 14.52px;
-    padding: 19px 25px;
+    max-width: 1260em;
+    height: 145em;
+    border-radius: 14.52em;
+    padding: 19em 25em;
 
 }
 
@@ -263,11 +345,11 @@ h1 {
 
 .footer_container {
     background-color: #D76239;
-    max-width: 1322px;
-    height: 158px;
-    border-radius: 29.04px;
-    padding: 29.04px;
-    margin-top: 60px;
+    max-width: 1322em;
+    height: 158em;
+    border-radius: 29.04em;
+    padding: 29.04em;
+    margin-top: 60em;
 }
 
 .footer_container h2 {
@@ -276,7 +358,7 @@ h1 {
 
 .contacts {
     color: #DDDDDD;
-    font-size: 24.2px;
+    font-size: 24.2em;
 }
 a {
     text-decoration: none;
