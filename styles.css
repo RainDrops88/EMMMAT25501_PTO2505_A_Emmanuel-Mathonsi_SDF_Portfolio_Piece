@@ -78,110 +78,117 @@ h1 {
 /* PROFILE SECTION  ENDS*/
 
 /* PROFICIANCY AND SKILLS SECTION  STARTS*/
-.prof-skill {
-    width: 1321.79em;
-    height: 428.37em;
-    display: flex;
-    gap: 48.1em;
-    margin-top: 48em;
-}
+   
+    /* PROFICIANCY SECTION  STARTS*/
+
+    .prof-skill {
+        width: 1321.79em;
+        height: 428.37em;
+        display: flex;
+        gap: 48.1em;
+        margin-top: 48em;
+    }
 
 
-.proficiancy {
-    background-color: #FFFFFF;
-    width: 563.9em;
-    border-radius: 29em;
-    padding: 51.14em 27.4em;
+    .proficiancy {
+        background-color: #FFFFFF;
+        width: 563.9em;
+        border-radius: 29em;
+        padding: 51.14em 27.4em;
 }
+    /* PROFICIANCY SECTION  ENDS*/
 
-.skills {
-    background-color: #FFFFFF;
-    width: 706em;
-    border-radius: 29em;
-    padding: 28em 28em 31.47em 28em;
-}
+    /* SKILLS SECTION  STARTS*/
 
-div .skill {
-    display: flex;
-    flex-wrap:wrap ;
-    width: 672.81rem;
-    max-height: 279.53rem;
-    margin-top: 39rem;
-}
+    .skills {
+        background-color: #FFFFFF;
+        width: 706em;
+        border-radius: 29em;
+        padding: 28em 28em 31.47em 28em;
+    }
 
-.skill-1{
-    background-color: rgba(74, 139, 112, 0.13) ;
-    padding: 9.68rem 24.2rem;
-    margin: 0 0 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-    
-}
+    div .skill {
+        display: flex;
+        flex-wrap:wrap ;
+        width: 672.81rem;
+        max-height: 279.53rem;
+        margin-top: 39rem;
+    }
 
-.skill-2{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    font-size: 24.2em;
-    line-height: 36rem;
-    margin: 0 19.39rem 19.39rem 19.39rem;;
-    border-radius: 96.81rem;
-}
+    .skill-1{
+        background-color: rgba(74, 139, 112, 0.13) ;
+        padding: 9.68rem 24.2rem;
+        margin: 0 0 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+        
+    }
 
-.skill-3{
-    background-color:rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-2{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        font-size: 24.2em;
+        line-height: 36rem;
+        margin: 0 19.39rem 19.39rem 19.39rem;;
+        border-radius: 96.81rem;
+    }
 
-.skill-4{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-3{
+        background-color:rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
 
-.skill-5{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-4{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
 
-.skill-6{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-5{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
 
-.skill-7{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-6{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
 
-.skill-8{
-    background-color: rgba(74, 139, 112, 0.13);
-    padding: 9.68rem 24.2rem;
-    margin: 0 19.39rem 19.39rem 0;
-    font-size: 24.2em;
-    line-height: 36rem;
-    border-radius: 96.81rem;
-}
+    .skill-7{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
+
+    .skill-8{
+        background-color: rgba(74, 139, 112, 0.13);
+        padding: 9.68rem 24.2rem;
+        margin: 0 19.39rem 19.39rem 0;
+        font-size: 24.2em;
+        line-height: 36rem;
+        border-radius: 96.81rem;
+    }
+    /* SKILLS SECTION  ENDS*/
 /* PROFICIANCY AND SKILLS SECTION  ENDS*/
 
 
@@ -263,200 +270,244 @@ h3 {
 /* PROJECT SECTION  ENDS*/
 
 /* EDUCATION AND TOOLS SECTION START */
-.edu-tool {   
-    display: flex;
-    justify-content: space-between;
-    gap: 21rem;
-    margin-top: 48.2rem;
 
-}
+    /* EDUCATION SECTION STARTS */
+    .edu-tool {   
+        display: flex;
+        justify-content: space-between;
+        gap: 21rem;
+        margin-top: 48.2rem;
 
-.education {
-    display: flex;
-    flex-direction: column;
-    width: 994.69rem;
-    max-height: 818.06rem;
-    border-radius: 29rem;
-    background-color: #FFFFFF;
-    padding: 29rem ;
-}
+    }
 
-.education-bg-1 {
-    background-color: #4A8B70;
-    height: 186.02rem;
-}
+    .education {
+        display: flex;
+        flex-direction: column;
+        width: 994.69rem;
+        max-height: 818.06rem;
+        border-radius: 29rem;
+        background-color: #FFFFFF;
+        padding: 29rem ;
+    }
 
-.education-bg-2, .education-bg-3{
-    background-color: #E7F0EC;
-    height: 164.61rem;
-}
+    .education-bg-1 {
+        background-color: #4A8B70;
+        height: 186.02rem;
+    }
 
-ul {
-    margin: 0;
-}
+    .education-bg-2, .education-bg-3{
+        background-color: #E7F0EC;
+        height: 164.61rem;
+    }
 
-.education-bg-1, .education-bg-2, .education-bg-3 {
-    display: grid;
-    grid-template-columns: 267rem 578.4rem;
-    column-gap: 30rem;
-    width: 936.61rem;
-    font-size: 19.36em;
-    line-height: 29rem;
-    padding: 27rem 21rem 27rem 21rem;
-    margin-top: 20rem;
-    border-radius: 29rem;
+    ul {
+        margin: 0;
+    }
 
-}
+    .education-bg-1, .education-bg-2, .education-bg-3 {
+        display: grid;
+        grid-template-columns: 267rem 578.4rem;
+        column-gap: 30rem;
+        width: 936.61rem;
+        font-size: 19.36em;
+        line-height: 29rem;
+        padding: 27rem 21rem 27rem 21rem;
+        margin-top: 20rem;
+        border-radius: 29rem;
 
-.institutions-name {
-    padding: 2 0;
-}
+    }
 
-.dates {
-    font-weight: 500;
-}
+    .institutions-name {
+        padding: 2 0;
+    }
 
-.techs{
-    display: flex;
-    flex-direction: column;
-    width: 300.1em;
-    height: 847.06em;
-    border-radius: 29em;
-    background-color: #FFFFFF;
-    text-align: center;
-}
+    .dates {
+        font-weight: 500;
+    }
 
-.techs h2 {
-    margin-top: 32rem;
-}
+    /* EDUCATION SECTION ENDS */
 
-.lagueges {
-    background-color: #E7F0EC;
-    width: 183.9em;
-    height: 273.9em;
-    border-radius: 14.52em;
-    margin: 36.04em auto 29.04rem auto;
-    text-align: center;
-}
+    /* TOOLS SECTION STARTS */
+    .techs{
+        display: flex;
+        flex-direction: column;
+        width: 300.1em;
+        height: 847.06em;
+        border-radius: 29em;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
 
-.lagueges p {
-    background-color: rgba(0, 0, 0, 1);
-    font-size: 12.1em;
-    font-weight: 500;
-    color: rgba(218, 216, 216, 1);
-    padding: 4.84rem 1.52rem;
-    border-radius: 142.79rem;
-    margin: -12rem 43rem 24.14rem 46rem;
-}
+    .techs h2 {
+        margin-top: 32rem;
+    }
 
-.laguege {
-    display: grid;
-    grid-template-columns: 41.1rem 41.1rem;
-    justify-content: center;
-    column-gap: 38.72rem;
-    row-gap: 38.72rem;
-}
+    .lagueges {
+        background-color: #E7F0EC;
+        width: 183.9em;
+        height: 273.9em;
+        border-radius: 14.52em;
+        margin: 36.04em auto 29.04rem auto;
+        text-align: center;
+    }
 
-.design {
-    background-color: #E7F0EC;
-    width: 183.9em;
-    height: 152em;
-    border-radius: 14.52em;
-    margin: 0 auto 29.04em auto;
-}
+    .lagueges p {
+        background-color: rgba(0, 0, 0, 1);
+        font-size: 12.1em;
+        font-weight: 500;
+        color: rgba(218, 216, 216, 1);
+        padding: 4.84rem 1.52rem;
+        border-radius: 142.79rem;
+        margin: -12rem 43rem 24.14rem 46rem;
+    }
 
-.design p {
-    background-color: rgba(0, 0, 0, 1);
-    font-size: 12.1em;
-    font-weight: 500;
-    width: 57rem;
-    color: rgba(218, 216, 216, 1);
-    padding: 4.84rem 1.52rem;
-    border-radius: 142.79rem;
-    margin: -12rem 57.29rem 16.42rem 55.66rem;
-}
+    .laguege {
+        display: grid;
+        grid-template-columns: 41.1rem 41.1rem;
+        justify-content: center;
+        column-gap: 38.72rem;
+        row-gap: 38.72rem;
+    }
 
-.designs {
-    display: grid;
-    grid-template-columns: 41.1rem 41.1rem;
-    justify-content: center;
-    column-gap: 36.86rem;
-    row-gap: 21rem;
-}
+    .design {
+        background-color: #E7F0EC;
+        width: 183.9em;
+        height: 152em;
+        border-radius: 14.52em;
+        margin: 0 auto 29.04em auto;
+    }
 
-.tools {
-    background-color: #E7F0EC;
-    width: 183.9em;
-    height: 198.45em;
-    border-radius: 14.52em;
-    margin: 0 auto;
-}
+    .design p {
+        background-color: rgba(0, 0, 0, 1);
+        font-size: 12.1em;
+        font-weight: 500;
+        width: 57rem;
+        color: rgba(218, 216, 216, 1);
+        padding: 4.84rem 1.52rem;
+        border-radius: 142.79rem;
+        margin: -12rem 57.29rem 16.42rem 55.66rem;
+    }
 
-.tools p {
-    background-color: rgba(0, 0, 0, 1);
-    font-size: 12.1em;
-    font-weight: 500;
-    width: 57rem;
-    color: rgba(218, 216, 216, 1);
-    padding: 4.84rem 1.52rem;
-    border-radius: 142.79rem;
-    margin: -4.79rem 61.9rem 16.82rem 62.9rem;
-}
+    .designs {
+        display: grid;
+        grid-template-columns: 41.1rem 41.1rem;
+        justify-content: center;
+        column-gap: 36.86rem;
+        row-gap: 21rem;
+    }
 
-.tool {
-    display: grid;
-    grid-template-columns: 41.1rem 41.1rem;
-    justify-content: center;
-    column-gap: 38.72rem;
-    row-gap: 38.72rem;
-}
+    .tools {
+        background-color: #E7F0EC;
+        width: 183.9em;
+        height: 198.45em;
+        border-radius: 14.52em;
+        margin: 0 auto;
+    }
 
+    .tools p {
+        background-color: rgba(0, 0, 0, 1);
+        font-size: 12.1em;
+        font-weight: 500;
+        width: 57rem;
+        color: rgba(218, 216, 216, 1);
+        padding: 4.84rem 1.52rem;
+        border-radius: 142.79rem;
+        margin: -4.79rem 61.9rem 16.82rem 62.9rem;
+    }
+
+    .tool {
+        display: grid;
+        grid-template-columns: 41.1rem 41.1rem;
+        justify-content: center;
+        column-gap: 38.72rem;
+        row-gap: 38.72rem;
+    }
+    /* TOOLS SECTION ENDS */
 /* EDUCATION AND TOOLS SECTION ENDS */
 
+/* WORK EXPERIANCE SECTION STARTS */
 .experiance {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    max-width: 1316em;
-    height: 640em;
-    border-radius: 14.52em;
-    margin-top: 60em;
-    padding: 31em 27em 32em 27em;
+    max-width: 1316rem;
+    height: 640rem;
+    border-radius: 14.52rem;
+    margin-top: 60rem;
+    padding: 31rem 27rem 32rem 27rem;
     
 }
 
-.work-1, .work-2, .work-3 {
+ul {
+    padding-left: 0;
+}
+.most-recent {
+    background-color: rgba(215, 98, 57, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 90rem;
+    height:23rem;
+    font-size: 0.75em;
+    line-height: 23rem;
+    padding: 4.84rem 16.7rem;
+    border-radius: 142.79rem;
+}
+
+.work-2, .work-3 {
     background-color: #E7F0EC;
-    max-width: 1260em;
-    height: 145em;
-    border-radius: 14.52em;
-    padding: 19em 25em;
+    display: grid;
+    grid-template-columns: 295rem 793rem;
+    column-gap: 30rem;
+    max-width: 1316rem;
+    height: 145rem;
+    line-height: 29rem;
+    font-size: 19.36em;
+    border-radius: 14.52rem;
+    padding: 19rem 25rem;
 
 }
 
 .work-1 {
     background-color: #4A8B70;
+    display: grid;
+    grid-template-columns: 253rem 763rem 123.43rem;
+    justify-content: space-between;
+    max-width: 1316rem;
+    height: 145rem;
+    line-height: 29rem;
+    font-size: 19.36em;
+    border-radius: 14.52rem;
+    padding: 19rem 25rem;
 }
+/* WORK EXPERIANCE SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
 
 .footer_container {
     background-color: #D76239;
-    max-width: 1322em;
-    height: 158em;
-    border-radius: 29.04em;
-    padding: 29.04em;
-    margin-top: 60em;
+    max-width: 1322rem;
+    height: 125rem;
+    border-radius: 29.04rem;
+    padding: 29.04rem;
+    margin-top: 48rem;
 }
 
 .footer_container h2 {
     color: #FFFFFF;
+    margin-bottom: 13rem;
 }
 
 .contacts {
     color: #DDDDDD;
     font-size: 24.2em;
+    display: inline-flex;
 }
 a {
     text-decoration: none;
     color: #DDDDDD;
 }
+
+.divider {
+    margin: 0 19.36rem;
+}
+/* FOOTER SECTION ENDS */
