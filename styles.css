@@ -25,6 +25,9 @@ h2 {
     margin: 0;
 }
 
+
+/*PROFILE SECTION STARTS */
+
 .profile {
     height: 300rem;
     display: grid;
@@ -59,6 +62,9 @@ h1 {
 .about_me {
     margin: 0;
 }
+/*PROFILE SECTION ENDS */
+
+/*PROFICIANCY AND SKILLS SECTION STARTS */
 
 .prof-skill {
     display: flex;
@@ -66,7 +72,7 @@ h1 {
     margin-top: 48rem;
 }
 
-
+/*PROFICIANCY SECTION STARTS */
 .proficiancy {
     background-color: #FFFFFF;
     width: 515.1rem;
@@ -128,6 +134,9 @@ h1 {
     border-radius: 7.26rem;
     margin-top: 24.2rem;
 }
+/*PROFICIANCY SECTION ENDS */
+
+/*SKILLS SECTION ENDS */
 
 .skills {
     background-color: #FFFFFF;
@@ -218,6 +227,12 @@ div .skill {
     line-height: 36rem;
     border-radius: 96.81rem;
 }
+/*SKILLS SECTION ENDS */
+
+/*PROFICIANCY AND SKILLS SECTION ENDS */
+
+
+/*PROJECT SECTION STARTS */
 
 .projects-section {
     width: 1260.08rem;    
@@ -285,6 +300,9 @@ h3 {
     margin: 24rem 0;
 }
 
+/*PROJECT SECTION ENDS */
+
+/*EDUCATION AND TOOLS SECTIONSTARTS*/
 
 .edu-tool {   
     display: flex;
@@ -444,8 +462,11 @@ ul {
     column-gap: 38.72rem;
     row-gap: 38.72rem;
 }
+/*EDUCATION AND TOOLS SECTION ENDS*/
 
-.experiance {
+
+/* WORK EXPERIANCE SECTION STARTS */
+.experience {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -458,7 +479,7 @@ ul {
     
 }
 @media screen and (min-width:432){
-    .experiance {
+    .experience {
         height: 577rem;
     }
 }
@@ -734,7 +755,7 @@ a {
         display: flex;
     }
        
-    .experiance {
+    .experience {
         width: 640rem;
         margin-top: 30rem;
     }
