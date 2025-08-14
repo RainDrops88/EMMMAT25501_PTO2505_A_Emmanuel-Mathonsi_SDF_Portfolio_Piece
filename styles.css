@@ -7,19 +7,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1515em;
-    height: 4036.84em;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    margin-left: -32rem;
     
 }
 
 .container {
-    width: 1321.79em;
-    margin-left: 59em;
-    margin-top: 63em;
-}
+    width: 1322rem;
+    margin: 63rem 59rem;
+    }
 
 h2 {
     color: #000000;
@@ -29,37 +25,25 @@ h2 {
     margin: 0;
 }
 
-/* PROFILE SECTION  START*/
 .profile {
-    width: 1321.2em;
-    height: 300em;
+    height: 300rem;
     display: grid;
-    grid-template-columns: 300.1em 994.69em ;
-    gap: 27em;
-    border-radius: 29em;
-}
-@media screen and (max-width: 431px){
-    body {
-        margin: 1em 2em;
-        font-size: .8em;
-    }
-    .profile {
-        grid-template-columns: 300.1px 994.69px;
-    }
-    
+    grid-template-columns: 300.1rem 994.69rem ;
+    gap: 27rem;
+    border-radius: 29rem;
 }
 
+
 .profile-p {
-    width: 300em;
-    height: 300em;
-    border-radius: 29em;
+    width: 100%;
+    height: 100%;
+    border-radius: 29rem;
 }
 
 .bio {
     background-color: #FFFFFF;
-    max-width: 994.5em;
-    border-radius: 1.34em;
-    padding: 2.7em 3.18em;
+    border-radius: 29rem;
+    padding: 59.74rem 69.34rem;
     font-size: 22em;
     color: #696868;
 }
@@ -75,143 +59,174 @@ h1 {
 .about_me {
     margin: 0;
 }
-/* PROFILE SECTION  ENDS*/
 
-/* PROFICIANCY AND SKILLS SECTION  STARTS*/
-   
-    /* PROFICIANCY SECTION  STARTS*/
-
-    .prof-skill {
-        width: 1321.79em;
-        height: 428.37em;
-        display: flex;
-        gap: 48.1em;
-        margin-top: 48em;
-    }
-
-
-    .proficiancy {
-        background-color: #FFFFFF;
-        width: 563.9em;
-        border-radius: 29em;
-        padding: 51.14em 27.4em;
-}
-    /* PROFICIANCY SECTION  ENDS*/
-
-    /* SKILLS SECTION  STARTS*/
-
-    .skills {
-        background-color: #FFFFFF;
-        width: 706em;
-        border-radius: 29em;
-        padding: 28em 28em 31.47em 28em;
-    }
-
-    div .skill {
-        display: flex;
-        flex-wrap:wrap ;
-        width: 672.81rem;
-        max-height: 279.53rem;
-        margin-top: 39rem;
-    }
-
-    .skill-1{
-        background-color: rgba(74, 139, 112, 0.13) ;
-        padding: 9.68rem 24.2rem;
-        margin: 0 0 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-        
-    }
-
-    .skill-2{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        font-size: 24.2em;
-        line-height: 36rem;
-        margin: 0 19.39rem 19.39rem 19.39rem;;
-        border-radius: 96.81rem;
-    }
-
-    .skill-3{
-        background-color:rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-
-    .skill-4{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-
-    .skill-5{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-
-    .skill-6{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-
-    .skill-7{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-
-    .skill-8{
-        background-color: rgba(74, 139, 112, 0.13);
-        padding: 9.68rem 24.2rem;
-        margin: 0 19.39rem 19.39rem 0;
-        font-size: 24.2em;
-        line-height: 36rem;
-        border-radius: 96.81rem;
-    }
-    /* SKILLS SECTION  ENDS*/
-/* PROFICIANCY AND SKILLS SECTION  ENDS*/
-
-
-@media screen and (max-width: 431px){
-    .prof-skill{
-        display: flex;
-        flex-direction: column;
-    }
-    .skills {
-        margin-left: 0;
-        margin-top: 1em;
-    }
+.prof-skill {
+    display: flex;
+    gap: 48.1rem;
+    margin-top: 48rem;
 }
 
-/* PROJECT SECTION  STARTS*/
+
+.proficiancy {
+    background-color: #FFFFFF;
+    width: 515.1rem;
+    height:326.74rem;
+    border-radius: 29rem;
+    margin-top: 48rem;
+    padding: 51.14rem 27.4rem;
+}
+
+.profession-1{
+    margin-top: 0;
+}
+
+.profession-2, .profession-3, .profession-4{
+    margin-bottom: 0;
+    margin-top: 23.4rem;
+}
+
+.proficiancy-levels {
+    font-size: 24.2em;
+    font-weight: 500;
+    margin: 30rem 0;
+}
+
+.language-level{
+    display: grid;
+    grid-template-columns: 141rem 321.88rem;
+    column-gap: 46.21rem;
+    margin-top: 30rem;
+}
+
+.Tailwind-level {
+    background-color: rgba(74, 139, 112, 1);
+    width: 232rem;
+    height: 26rem;
+    border-radius: 7.26rem;
+}
+
+.css-level {
+    background-color: rgba(74, 139, 112, 1);
+    width: 280rem;
+    height: 26rem;
+    border-radius: 7.26rem;
+    margin-top: 24.2rem;
+}
+
+.html-level {
+    background-color: rgba(74, 139, 112, 1);
+    width: 300rem;
+    height: 26rem;
+    border-radius: 7.26rem;
+    margin-top: 24.2rem;
+}
+
+.cpp-level {
+    background-color: rgba(74, 139, 112, 1);
+    width: 180rem;
+    height: 26rem;
+    border-radius: 7.26rem;
+    margin-top: 24.2rem;
+}
+
+.skills {
+    background-color: #FFFFFF;
+    width: 650em;
+    height:373rem;
+    border-radius: 29em;
+    margin-top: 48rem;
+    padding: 28em 28em 31.47em 28em;
+}
+
+div .skill {
+    display: flex;
+    flex-wrap:wrap ;
+    width: 672.81rem;
+    margin-top: 39rem;
+}
+
+.skill-1{
+    background-color: rgba(74, 139, 112, 0.13) ;
+    padding: 9.68rem 24.2rem;
+    margin: 0 0 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+    
+}
+
+.skill-2{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    font-size: 24.2em;
+    line-height: 36rem;
+    margin: 0 19.39rem 19.39rem 19.39rem;;
+    border-radius: 96.81rem;
+}
+
+.skill-3{
+    background-color:rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-4{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-5{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-6{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-7{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
+.skill-8{
+    background-color: rgba(74, 139, 112, 0.13);
+    padding: 9.68rem 24.2rem;
+    margin: 0 19.39rem 19.39rem 0;
+    font-size: 24.2em;
+    line-height: 36rem;
+    border-radius: 96.81rem;
+}
+
 .projects-section {
-    max-width: 1318.08rem;
-    height: 755.09rem;
+    width: 1260.08rem;    
+    height: 669.09rem;
     background-color: #FFFFFF;
     margin-top: 48.33rem;
     border-radius: 29rem;
     text-align: center;
-    padding: 43rem 29rem 0 29rem;
+    padding: 43rem 29rem 43rem 29rem;
 }
 
 .project-name {
@@ -221,19 +236,21 @@ h1 {
 .projects {
     display: grid;
     grid-template-columns: 280rem 280rem 272rem 272rem;
-    justify-content: space-between;
-    margin-top: 60rem;
+    column-gap: 49rem;
+    margin-top: 35rem;
     margin-bottom: 0;
     
 }
 
+
 .project-1 {
     background-color: #4A8B70;
+    color: rgba(255, 255, 255, 1);
     display: flex;
     flex-wrap: wrap;
     text-align: left;
+    height: 539rem;
     font-size: 19.36em;
-    height: 581rem;
     border-radius: 29rem;
     padding: 21rem 19rem;
 }
@@ -243,7 +260,7 @@ h1 {
     flex-wrap: wrap;
     text-align: left;
     font-size: 19.36em;
-    height: 581rem;
+    height: 539rem;
     border-radius: 29rem;
     padding: 21rem 19rem;
 }
@@ -267,181 +284,189 @@ h3 {
 .project-type, .technologies {
     margin: 24rem 0;
 }
-/* PROJECT SECTION  ENDS*/
 
-/* EDUCATION AND TOOLS SECTION START */
 
-    /* EDUCATION SECTION STARTS */
-    .edu-tool {   
-        display: flex;
-        justify-content: space-between;
-        gap: 21rem;
-        margin-top: 48.2rem;
+.edu-tool {   
+    display: flex;
+    gap: 21rem;
+    margin-top: 48.2rem;
 
-    }
+}
 
-    .education {
-        display: flex;
-        flex-direction: column;
-        width: 994.69rem;
-        max-height: 818.06rem;
-        border-radius: 29rem;
-        background-color: #FFFFFF;
-        padding: 29rem ;
-    }
 
-    .education-bg-1 {
-        background-color: #4A8B70;
-        height: 186.02rem;
-    }
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 936.69rem;
+    height: 789.06rem;
+    border-radius: 29rem;
+    background-color: #FFFFFF;
+    padding: 29rem ;
+}
 
-    .education-bg-2, .education-bg-3{
-        background-color: #E7F0EC;
-        height: 164.61rem;
-    }
 
-    ul {
-        margin: 0;
-    }
+.education-bg-1 {
+    background-color: #4A8B70;
+    color: rgba(255, 255, 255, 1);
+    height: 186.02rem;
+}
 
-    .education-bg-1, .education-bg-2, .education-bg-3 {
-        display: grid;
-        grid-template-columns: 267rem 578.4rem;
-        column-gap: 30rem;
-        width: 936.61rem;
-        font-size: 19.36em;
-        line-height: 29rem;
-        padding: 27rem 21rem 27rem 21rem;
-        margin-top: 20rem;
-        border-radius: 29rem;
+.education-bg-2, .education-bg-3{
+    background-color: #E7F0EC;
+    height: 164.61rem;
+}
 
-    }
+ul {
+    margin: 0;
+}
 
-    .institutions-name {
-        padding: 2 0;
-    }
+.education-bg-1, .education-bg-2, .education-bg-3 {
+    display: grid;
+    grid-template-columns: 267rem 578.4rem;
+    column-gap: 30rem;
+    width: 894.61rem;
+    font-size: 19.36em;
+    line-height: 29rem;
+    padding: 27rem 21rem 27rem 21rem;
+    margin-top: 20rem;
+    border-radius: 29rem;
 
-    .dates {
-        font-weight: 500;
-    }
+}
 
-    /* EDUCATION SECTION ENDS */
+.institutions-name {
+    padding: 2 0;
+}
 
-    /* TOOLS SECTION STARTS */
-    .techs{
-        display: flex;
-        flex-direction: column;
-        width: 300.1em;
-        height: 847.06em;
-        border-radius: 29em;
-        background-color: #FFFFFF;
-        text-align: center;
-    }
+.dates {
+    font-weight: 500;
+}
 
-    .techs h2 {
-        margin-top: 32rem;
-    }
+.techs {
+    width: 300.1em;
+    border-radius: 29em;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.tools-section{
+    display: flex;
+    flex-direction: column;
+    
+}
 
-    .lagueges {
-        background-color: #E7F0EC;
-        width: 183.9em;
-        height: 273.9em;
-        border-radius: 14.52em;
-        margin: 36.04em auto 29.04rem auto;
-        text-align: center;
-    }
+.techs h2 {
+    margin-top: 32rem;
+}
 
-    .lagueges p {
-        background-color: rgba(0, 0, 0, 1);
-        font-size: 12.1em;
-        font-weight: 500;
-        color: rgba(218, 216, 216, 1);
-        padding: 4.84rem 1.52rem;
-        border-radius: 142.79rem;
-        margin: -12rem 43rem 24.14rem 46rem;
-    }
+.lagueges {
+    background-color: #E7F0EC;
+    width: 183.9rem;
+    border-radius: 14.52rem;
+    margin: 36.04rem auto 29.04rem auto;
+    text-align: center;
+}
 
-    .laguege {
-        display: grid;
-        grid-template-columns: 41.1rem 41.1rem;
-        justify-content: center;
-        column-gap: 38.72rem;
-        row-gap: 38.72rem;
-    }
+.lagueges p {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -12rem 43rem 24.14rem 46rem;
+}
 
-    .design {
-        background-color: #E7F0EC;
-        width: 183.9em;
-        height: 152em;
-        border-radius: 14.52em;
-        margin: 0 auto 29.04em auto;
-    }
+.laguege {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 38.72rem;
+    row-gap: 38.72rem;
+}
 
-    .design p {
-        background-color: rgba(0, 0, 0, 1);
-        font-size: 12.1em;
-        font-weight: 500;
-        width: 57rem;
-        color: rgba(218, 216, 216, 1);
-        padding: 4.84rem 1.52rem;
-        border-radius: 142.79rem;
-        margin: -12rem 57.29rem 16.42rem 55.66rem;
-    }
+.design {
+    background-color: #E7F0EC;
+    width: 183.9em;
+    height: 152em;
+    border-radius: 14.52em;
+    margin: 0 auto 29.04em auto;
+}
 
-    .designs {
-        display: grid;
-        grid-template-columns: 41.1rem 41.1rem;
-        justify-content: center;
-        column-gap: 36.86rem;
-        row-gap: 21rem;
-    }
+.design p {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -12rem 57.29rem 16.42rem 55.66rem;
+}
 
-    .tools {
-        background-color: #E7F0EC;
-        width: 183.9em;
-        height: 198.45em;
-        border-radius: 14.52em;
-        margin: 0 auto;
-    }
+.designs {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 36.86rem;
+    row-gap: 21rem;
+}
 
-    .tools p {
-        background-color: rgba(0, 0, 0, 1);
-        font-size: 12.1em;
-        font-weight: 500;
-        width: 57rem;
-        color: rgba(218, 216, 216, 1);
-        padding: 4.84rem 1.52rem;
-        border-radius: 142.79rem;
-        margin: -4.79rem 61.9rem 16.82rem 62.9rem;
-    }
+.tools {
+    background-color: #E7F0EC;
+    height: 198.45em;
+    border-radius: 14.52em;
+    margin: 0 auto;
+}
 
-    .tool {
-        display: grid;
-        grid-template-columns: 41.1rem 41.1rem;
-        justify-content: center;
-        column-gap: 38.72rem;
-        row-gap: 38.72rem;
-    }
-    /* TOOLS SECTION ENDS */
-/* EDUCATION AND TOOLS SECTION ENDS */
+.large-screen {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    color: rgba(218, 216, 216, 1);
+    padding: 4.84rem 1.52rem;
+    border-radius: 142.79rem;
+    margin: -4.79rem 61.9rem 16.82rem 62.9rem;
+}
 
-/* WORK EXPERIANCE SECTION STARTS */
+.small-screen {
+    display: none;
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 12.1em;
+    font-weight: 500;
+    color: rgba(218, 216, 216, 1);
+    border-radius: 142.79rem;
+    margin: -4.79rem 55rem 16.82rem 55rem;
+    padding: 4.84rem 4.52rem;
+}
+
+.tool {
+    display: grid;
+    grid-template-columns: 41.1rem 41.1rem;
+    justify-content: center;
+    column-gap: 38.72rem;
+    row-gap: 38.72rem;
+}
+
 .experiance {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    max-width: 1316rem;
-    height: 640rem;
+    width: 1262rem;
+    row-gap: 30rem;
     border-radius: 14.52rem;
     margin-top: 60rem;
     padding: 31rem 27rem 32rem 27rem;
     
 }
+@media screen and (min-width:432){
+    .experiance {
+        height: 577rem;
+    }
+}
 
 ul {
     padding-left: 0;
 }
+
 .most-recent {
     background-color: rgba(215, 98, 57, 1);
     color: rgba(255, 255, 255, 1);
@@ -458,8 +483,6 @@ ul {
     display: grid;
     grid-template-columns: 295rem 793rem;
     column-gap: 30rem;
-    max-width: 1316rem;
-    height: 145rem;
     line-height: 29rem;
     font-size: 19.36em;
     border-radius: 14.52rem;
@@ -469,11 +492,10 @@ ul {
 
 .work-1 {
     background-color: #4A8B70;
+    color: rgba(255, 255, 255, 1);
     display: grid;
     grid-template-columns: 253rem 763rem 123.43rem;
     justify-content: space-between;
-    max-width: 1316rem;
-    height: 145rem;
     line-height: 29rem;
     font-size: 19.36em;
     border-radius: 14.52rem;
@@ -481,12 +503,13 @@ ul {
 }
 /* WORK EXPERIANCE SECTION ENDS */
 
+
 /* FOOTER SECTION STARTS */
 
 .footer_container {
     background-color: #D76239;
-    max-width: 1322rem;
-    height: 125rem;
+    width: 1263.92rem;
+    height: 99.92rem;
     border-radius: 29.04rem;
     padding: 29.04rem;
     margin-top: 48rem;
@@ -511,3 +534,258 @@ a {
     margin: 0 19.36rem;
 }
 /* FOOTER SECTION ENDS */
+
+/* RESPONSIVENESS FOR MOBILE WITH MAX-WIDTH (430PX) STARTS */
+@media screen and (max-width: 431px){
+    html {
+        font-size: 0.5px;
+    }
+
+    .container {
+        width: 698rem;
+        align-content: center;
+    margin: 63rem auto 63rem auto
+    }
+
+    .profile {
+        width: 688rem;
+        max-height: 300rem;
+        display: grid;
+        grid-template-columns: 300rem 380rem ;
+        gap: 7rem;
+        border-radius: 29rem;
+        }
+
+    h1 {
+        font-size: 1.46em;
+    }
+
+    .profile-p {
+        width: 300rem;
+        height: 300rem;
+        border-radius: 29rem;
+    }
+
+    .bio {
+        height: 225rem;
+        background-color: #FFFFFF;
+        border-radius: 29rem;
+        padding: 38rem 24rem;
+        
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .about_me {
+        font-size: .91em;
+        line-height: 151%;
+        margin: 0;
+    }
+
+
+    .prof-skill {
+        width: 690rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 30rem;
+    }
+
+    .proficiancy {
+        width:635rem;
+        margin-top: 0;
+    }
+
+    .skills {
+        width: 635rem;
+    }
+
+    .projects-section {
+        width: 635rem;
+        height: 1260rem;
+        margin-top: 30rem;
+        padding: 43rem 29rem 0 29rem;
+        text-align: left;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 280rem 280rem;
+        margin-top: 12.68rem;
+        column-gap: 49rem;
+        row-gap: 30rem;
+        
+    }
+
+    .project-1, .project-2 {
+        height: 492rem;
+    }
+
+    .project-3, .project-4 {
+        height: 540rem;
+    }
+
+    .project-2 i,
+    .project-3 i,
+    .project-4 i {
+        display: none;
+    }
+
+
+    .edu-tool {   
+        display: flex;
+        flex-direction: column;
+        width: 635rem;
+        gap: 21rem;
+        margin-top: 48.2rem;
+
+    }
+    .education {
+        width:635rem ;
+        height: 950rem;
+    }
+
+    .education-bg-1 {
+        background-color: #4A8B70;
+        width: 596rem;
+        height: 360rem;
+    }
+
+    .education-bg-2, .education-bg-3{
+        background-color: #E7F0EC;
+        width: 596rem;
+        height: 360rem;
+    }
+
+    ul {
+        width: 300rem;
+        overflow-wrap: break-word;
+        margin: 0;
+    }
+
+    .knowledge {
+        width: 300rem;
+    }
+
+    .institutions-name {
+        font-size: 1.034em;
+    }
+  
+    .techs {
+        width: 620rem;
+        height: 254rem;
+        padding: 36rem 40rem;
+    }
+
+    .techs h2 {
+    margin-top: 0;
+}
+
+    .tools-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 208rem;
+    margin-top: 20rem;
+    
+    }
+
+    .laguege {
+        grid-template-columns: 34rem 34rem;
+        column-gap: 32rem;
+        row-gap: 32rem;
+        }
+
+    .tools-section img {
+        width: 34rem;
+        height: 34rem;
+    }
+
+    img .laguege-5 , img .laguege-3 {
+        width: 40rem;
+    }
+
+    .lagueges p {
+        margin-bottom: 10rem;
+    }
+
+    .lagueges {
+        height: 208rem;
+        margin: 0;
+    }
+    .design, .tools {
+        height: 208rem;
+        order: -1;
+        margin: 0;
+    }
+
+    .designs {
+        margin-top: 40rem;
+        margin-bottom: 22rem;
+    }
+
+    .large-screen {
+        display:none;
+    }
+
+    .small-screen {
+        display: flex;
+    }
+       
+    .experiance {
+        width: 640rem;
+        margin-top: 30rem;
+    }
+
+    .responsibilities {
+        width: 300rem;
+    }
+
+
+    .work-1 {
+        grid-template-columns: 240rem 320rem;
+        
+    }
+    .most-recent {
+        width: 105rem;
+        order:  -1;
+        margin-left: 180rem ;
+        margin-bottom: 16re;
+    }
+    .institution-1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        order: 1;
+    }
+    .dates {
+        margin-bottom: 16rem;
+    }
+
+    .institution-2, .institution-3 {
+        width: 250rem;
+    }
+
+    .work-2, .work-3 {
+        grid-template-columns: 240rem 320rem;
+    }
+
+
+    .footer_container {
+    background-color: #D76239;
+    width: 635rem;
+    height: 120rem;
+    margin-top: 20rem;
+    }
+
+    .links, .divider {
+        display: none;
+    }
+
+    .contacts p:nth-child(2){
+        display: inline;
+    }
+
+}
+/* RESPONSIVENESS FOR MOBILE WITH MAX-WIDTH (430PX) ENDS */
