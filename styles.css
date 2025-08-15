@@ -25,7 +25,6 @@ h2 {
     margin: 0;
 }
 
-
 /*PROFILE SECTION STARTS */
 
 .profile {
@@ -160,7 +159,7 @@ div .skill {
     margin: 0 0 19.39rem 0;
     font-size: 24.2em;
     line-height: 36rem;
-    border-radius: 96.81rem;
+    border-radius: 30.81rem;
     
 }
 
@@ -244,9 +243,6 @@ div .skill {
     padding: 43rem 29rem 43rem 29rem;
 }
 
-.project-name {
-    margin-bottom: 
-}
 
 .projects {
     display: grid;
@@ -371,6 +367,7 @@ ul {
     
 }
 
+
 .techs h2 {
     margin-top: 32rem;
 }
@@ -479,7 +476,7 @@ ul {
     
 }
 @media screen and (min-width:432){
-    .experience {
+    .experiance {
         height: 577rem;
     }
 }
@@ -554,7 +551,197 @@ a {
 .divider {
     margin: 0 19.36rem;
 }
+
+
 /* FOOTER SECTION ENDS */
+
+/* RESPONSIVENESS FOR TABLET WITH MIN-WIDTH OF 432PX AND MAX-WIDTH OF 1030PX ENDS */
+@media screen and (min-width: 432px) and (max-width: 1030px)  {
+    html {
+        font-size: 0.8px;
+    }
+    .container {
+        width: 872rem;
+        margin: 33rem 29rem;
+    }
+
+    .profile {
+        grid-template-columns: 300.1rem 534.69rem;
+    }
+
+    .bio {
+        padding: 20rem 25rem;
+    }
+
+    .prof-skill {
+        column-gap: 20rem;
+        margin-top: 0;
+    }
+
+    .proficiancy {
+        width: 415.1rem;
+        height: 355rem;
+    }
+
+    .profession{
+        width: 100rem;
+    }
+
+    .language-level{
+        grid-template-columns: 130rem 270.88rem;
+        column-gap: 0;
+    }
+
+    .skills {
+        width: 315em;
+        height: 395rem;
+    }
+
+    div .skill {
+        width: 295rem;
+        height: 350rem;
+        margin-top: 20rem;
+    }
+    
+    .skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6, .skill-7, .skill-8{
+        height: 30rem;
+        font-size: 18rem;
+        margin: 0;
+    }
+
+    .projects-section {
+        width: 804rem;
+        height: 1260rem;
+    }
+
+    .projects {
+        grid-template-columns: 380rem 380rem ;
+        column-gap: 30rem;
+        row-gap: 30rem;
+        
+    }
+
+    .edu-tool {   
+        display: flex;
+        flex-direction: column;
+        gap: 21rem;
+        margin-top: 48.2rem;
+
+    }
+
+    .education {
+        width: 804rem;
+        height: 850rem;
+    }
+
+    .education-bg-1, .education-bg-2, .education-bg-3{
+        grid-template-columns: 267rem 378.4rem;
+        width: 760rem;
+        height: 270rem;
+    }
+
+    .knowledge {
+        width: 370rem;
+    }
+
+    .techs{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 814rem;
+        height: 368rem;
+        padding: 23rem;
+        margin-top: 0rem;
+    }
+
+    .tools-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 847rem;
+        height:308rem;
+        margin-top: 20rem;
+    
+    }
+
+    .laguege {
+        grid-template-columns: 50rem 50rem;
+        column-gap: 32rem;
+        row-gap: 32rem;
+        }
+
+    .tools-section img {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    img .laguege-5 , img .laguege-3 {
+        width: 50rem;
+    }
+
+    .lagueges p {
+        margin-bottom: 10rem;
+    }
+
+    .lagueges {
+        width: 200rem;
+        height: 268rem;
+        margin: 0;
+    }
+    .design, .tools {
+        width: 200rem;
+        height: 268rem;
+        order: -1;
+        margin: 0;
+    }
+
+    .designs {
+        column-gap: 32rem;
+        margin-top: 40rem;
+        margin-bottom: 22rem;
+    }
+    .tool {
+        column-gap: 32rem;
+    }
+
+    .large-screen {
+        display:flex;
+    }
+
+    .small-screen {
+        display: none;
+    }
+
+    .experience {
+        width: 804rem;
+    }
+
+    .work-1 {
+        grid-template-columns: 200rem 353rem 80.43rem;
+        justify-content: left;
+        gap: 40rem;
+    }
+    
+
+    .work-1.work-2, .work-3 {
+        width: 760rem;
+        height: 280rem;
+    }
+
+    .responsibilities {
+        width: 350rem;
+    }
+
+    .footer_container {
+        width: 804rem;
+    }
+
+    .links {
+        font-size: 0.9em;
+    }
+
+}
+/* RESPONSIVENESS FOR TABLET WITH MIN-WIDTH OF 432PX AND MAX-WIDTH OF 1030PX ENDS */
 
 /* RESPONSIVENESS FOR MOBILE WITH MAX-WIDTH (430PX) STARTS */
 @media screen and (max-width: 431px){
@@ -696,20 +883,17 @@ a {
   
     .techs {
         width: 620rem;
-        height: 254rem;
+        height: 304rem;
         padding: 36rem 40rem;
     }
 
-    .techs h2 {
-    margin-top: 0;
-}
 
     .tools-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 208rem;
-    margin-top: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 258rem;
+        margin-top: 20rem;
     
     }
 
@@ -807,6 +991,8 @@ a {
     .contacts p:nth-child(2){
         display: inline;
     }
+
+    
 
 }
 /* RESPONSIVENESS FOR MOBILE WITH MAX-WIDTH (430PX) ENDS */
